@@ -19,6 +19,7 @@ The main components of the build pipeline are [Pandoc](https://pandoc.org/) and 
 - [Links](docs/en/use/links.md)
 - [Images](docs/en/use/images.md)
 - [Tables](docs/en/use/tables.md)
+- [Styling](docs/en/use/styles.md)
 - [Exporting](docs/en/use/exporting.md)
 - [Makefile](docs/en/use/makefile.md)
 - [License](docs/en/use/license.md)
