@@ -48,5 +48,3 @@ The main components of the build pipeline are [Pandoc](https://pandoc.org/) and 
 
 Copyright © 2020 Kieran Potts \
 [MIT License](LICENSE.txt)
-
-Crafted with ❤ in Bristol, UK
