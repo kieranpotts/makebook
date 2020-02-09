@@ -1,11 +1,11 @@
 # `kieranpotts/makebook`
 
-**A pre-configured virtual machine and starter kit for generating books with [Pandoc](https://pandoc.org/).**
+![Latest](https://img.shields.io/github/release/kieranpotts/makebook.svg?style=for-the-badge&label=Latest&colorA=333333&colorB=2266ee&maxAge=3600)
+![CircleCI](https://img.shields.io/circleci/build/gh/kieranpotts/makebook?style=for-the-badge&label=Build&colorA=333333&colorB=2266ee&maxAge=3600)
+![Issues](https://img.shields.io/github/issues/kieranpotts/makebook.svg?style=for-the-badge&label=Issues&colorA=333333&colorB=2266ee&maxAge=3600)
+![Pull Requests](https://img.shields.io/github/issues-pr/kieranpotts/makebook.svg?style=for-the-badge&label=Pull%20Requests&colorA=333333&colorB=2266ee&maxAge=3600)
 
-<!-- ![Latest](https://img.shields.io/github/release/kieranpotts/makebook.svg?style=for-the-badge&label=Latest&colorA=333333&colorB=aaaaaa&maxAge=3600) -->
-![CircleCI](https://img.shields.io/circleci/build/gh/kieranpotts/makebook?style=for-the-badge&label=Build&colorA=333333&colorB=aaaaaa&maxAge=3600)
-![Issues](https://img.shields.io/github/issues/kieranpotts/makebook.svg?style=for-the-badge&label=Issues&colorA=333333&colorB=aaaaaa&maxAge=3600)
-![Pull Requests](https://img.shields.io/github/issues-pr/kieranpotts/makebook.svg?style=for-the-badge&label=Pull%20Requests&colorA=333333&colorB=aaaaaa&maxAge=3600)
+**A pre-configured virtual machine and starter kit for generating books with [Pandoc](https://pandoc.org/).**
 
 This is a Vagrant-provisioned VirtualBox-compatible virtual machine that is pre-installed with software tools and a build configuration to make it easy to generate books in a variety of file formats — EPUB, HTML and PDF — from a directory of Markdown files and images.
 
