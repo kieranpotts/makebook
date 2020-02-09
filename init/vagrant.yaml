@@ -10,6 +10,7 @@
 
   guest:
 
+    # A name fo the guest VM. This must be unique.
     name: my-new-book
 
     # The directory inside the guest VM which is mounted from

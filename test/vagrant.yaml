@@ -10,6 +10,7 @@
 
   guest:
 
+    # A name fo the guest VM. This must be unique.
     name: test.makebook.local
 
     # The directory inside the guest VM which is mounted from
