@@ -2,6 +2,11 @@
 
 **A pre-configured virtual machine and starter kit for generating books with [Pandoc](https://pandoc.org/).**
 
+<!-- ![Latest](https://img.shields.io/github/release/kieranpotts/makebook.svg?style=for-the-badge&label=Latest&colorA=333333&colorB=aaaaaa&maxAge=3600) -->
+![CircleCI](https://img.shields.io/circleci/build/gh/kieranpotts/makebook?style=for-the-badge&label=Build&colorA=333333&colorB=aaaaaa&maxAge=3600)
+![Issues](https://img.shields.io/github/issues/kieranpotts/makebook.svg?style=for-the-badge&label=Issues&colorA=333333&colorB=aaaaaa&maxAge=3600)
+![Pull Requests](https://img.shields.io/github/issues-pr/kieranpotts/makebook.svg?style=for-the-badge&label=Pull%20Requests&colorA=333333&colorB=aaaaaa&maxAge=3600)
+
 This is a Vagrant-provisioned VirtualBox-compatible virtual machine that is pre-installed with software tools and a build configuration to make it easy to generate books in a variety of file formats — EPUB, HTML and PDF — from a directory of Markdown files and images.
 
 The main components of the build pipeline are [Pandoc](https://pandoc.org/) and [Make](https://www.gnu.org/software/make/).
@@ -37,15 +42,6 @@ The main components of the build pipeline are [Pandoc](https://pandoc.org/) and 
 - [Acknowledgements](docs/en/dev/acknowledgements.md)
 
 ---
-
-<!--
-
-[![Latest](https://img.shields.io/github/release/user/repo.svg?style=for-the-badge&label=Latest&colorA=333333&colorB=aaaaaa&maxAge=3600)](https://github.com/user/repo/releases)
-[![Issues](https://img.shields.io/github/issues/user/repo.svg?style=for-the-badge&label=Issues&colorA=333333&colorB=aaaaaa&maxAge=3600)](https://github.com/user/repo/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/user/repo.svg?style=for-the-badge&label=Pull%20Requests&colorA=333333&colorB=aaaaaa&maxAge=3600)](https://github.com/user/repo/pulls)
-[![Travis](https://img.shields.io/travis/user/repo.svg?style=for-the-badge&label=Build&colorA=333333&colorB=aaaaaa&maxAge=3600)](https://travis-ci.org/user/repo)
-[![CircleCI](https://circleci.com/gh/user/repo.svg?style=shield)](https://circleci.com/gh/user/repo)
--->
 
 Copyright © 2020 Kieran Potts \
 [MIT License](LICENSE.txt)
