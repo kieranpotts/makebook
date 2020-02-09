@@ -15,22 +15,26 @@ jobs:
       - run:
           name: Build all formats
           command:
+            cd test/book/src &&
             make all
 
       - run:
-          name: Check if epub exists
+          name: Check if EPUB exists
           command:
-            test -s build/epub/book.epub
+            cd test/book &&
+            test -s dist/epub/book.epub
 
       - run:
-          name: Check if html exists
+          name: Check if HTML exists
           command:
-            test -s build/html/book.html &&
-            test -s build/html/style.css &&
-            test -s build/html/images/cover.png &&
-            test -s build/html/images/seagull.png
+            cd test/book &&
+            test -s dist/html/book.html &&
+            test -s dist/html/style.css &&
+            test -s dist/html/images/cover.png &&
+            test -s dist/html/images/seagull.png
 
       - run:
-          name: Check if pdf exists
+          name: Check if PDF exists
           command:
+            cd test/book &&
             test -s build/pdf/book.pdf
