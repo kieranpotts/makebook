@@ -35,7 +35,7 @@ $ make html
 To generate all of these in one go:
 
 ```sh
-$ make book
+$ make all
 ```
 
 The distributable files are created in the `dist` directory. But the books will not be regenerated if the distributable files already exist. To start a fresh build, begin by cleaning out the contents of the `dist` directory with the following command:

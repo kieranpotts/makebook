@@ -82,7 +82,7 @@ Having [built](built.md) a new version of the Vagrant box, you should throughly 
     Or, to make all of them in one go:
 
     ```sh
-    $ make book
+    $ make all
     ```
 
     Books are built to the `dist` directory, in the same parent directory as `src`. Before rebuilding any books, you will need to empty this directory again:
