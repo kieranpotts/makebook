@@ -46,6 +46,4 @@ The main components of the build pipeline are [Pandoc](https://pandoc.org/) and 
 [![CircleCI](https://circleci.com/gh/user/repo.svg?style=shield)](https://circleci.com/gh/user/repo)
 -->
 
-Crafted with ❤ in Bristol, UK \
-Copyright © 2020 Kieran Potts \
-Distributed under the [MIT License](LICENSE.txt)
+Copyright © 2020 Kieran Potts — [MIT License](LICENSE.txt) — With ❤ from Bristol, UK
