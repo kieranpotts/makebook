@@ -1,9 +1,9 @@
 # `kieranpotts/makebook`
 
-[![Latest](https://img.shields.io/github/release/kieranpotts/makebook.svg?style=for-the-badge&label=Latest&colorA=333333&colorB=informational&maxAge=3600)](https://github.com/kieranpotts/makebook/releases)
-[![Build Status](https://img.shields.io/circleci/build/gh/kieranpotts/makebook?style=for-the-badge&label=Build&colorA=333333&colorB=informational&maxAge=3600)](https://circleci.com/gh/kieranpotts/makebook)
-[![Issues](https://img.shields.io/github/issues/kieranpotts/makebook.svg?style=for-the-badge&label=Issues&colorA=333333&colorB=informational&maxAge=3600)](https://github.com/kieranpotts/makebook/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/kieranpotts/makebook.svg?style=for-the-badge&label=Pull%20Requests&colorA=333333&colorB=informational&maxAge=3600)](https://github.com/kieranpotts/makebook/pulls)
+[![Latest](https://img.shields.io/github/release/kieranpotts/makebook.svg?style=flat-square&label=Latest&colorA=333333&colorB=informational&maxAge=3600)](https://github.com/kieranpotts/makebook/releases)
+[![Build Status](https://img.shields.io/circleci/build/gh/kieranpotts/makebook?style=flat-square&label=Build&colorA=333333&colorB=informational&maxAge=3600)](https://circleci.com/gh/kieranpotts/makebook)
+[![Issues](https://img.shields.io/github/issues/kieranpotts/makebook.svg?style=flat-square&label=Issues&colorA=333333&colorB=informational&maxAge=3600)](https://github.com/kieranpotts/makebook/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/kieranpotts/makebook.svg?style=flat-square&label=Pull%20Requests&colorA=333333&colorB=informational&maxAge=3600)](https://github.com/kieranpotts/makebook/pulls)
 
 **A pre-configured virtual machine and starter kit for generating books with [Pandoc](https://pandoc.org/).**
 
