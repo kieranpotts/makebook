@@ -1,0 +1,10 @@
+---
+title: My Book Title
+author: Harry A Potter
+rights: MIT License
+language: en-GB
+tags: [book, test, etc]
+abstract: |
+  A short summary of the book.
+mainfont: DejaVu Sans
+---
