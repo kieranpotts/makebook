@@ -29,7 +29,7 @@ jobs:
           command:
             cd test/book &&
             test -s dist/html/book.html &&
-            test -s dist/html/style.css &&
+            test -s dist/html/styles/book.css &&
             test -s dist/html/images/cover.png &&
             test -s dist/html/images/seagull.png
 
