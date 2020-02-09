@@ -1,19 +1,7 @@
 # Change Log
 
-#### Unreleased
-- xxx
-- xxx
-- xxx
-
-#### v1.1.0 - YYYY-MM-DD
-- xxx
-- xxx
-- xxx
-
-#### v1.0.0 - YYYY-MM-DD
-- xxx
-- xxx
-- xxx
+#### v1.0.0 - 2020-02-09
+- Initial release.
 
 ---
 
