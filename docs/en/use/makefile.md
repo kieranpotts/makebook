@@ -18,4 +18,6 @@ For the ultimate customisation of your books, you will need to edit `Makefile`, 
 The following references provide all the documentation you need.
 
 - [Pandoc Manual](http://pandoc.org/MANUAL.html)
+- [learnbyexample: Customizing Pandoc to Generate Beautiful PDFs from Markdown](https://learnbyexample.github.io/tutorial/ebook-generation/customizing-pandoc/)
+- [Sitepoint: Creating PDFs from Markdown with Pandoc and LaTeX](https://www.sitepoint.com/creating-pdfs-from-markdown-with-pandoc-and-latex/)
 - [An Introduction to Makefiles](https://www.gnu.org/software/make/manual/html_node/Introduction.html)
