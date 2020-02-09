@@ -37,4 +37,4 @@ jobs:
         name: Check PDF distributable is built
         command: |
           cd test/book
-          test -s build/pdf/book.pdf
+          test -s dist/pdf/book.pdf
