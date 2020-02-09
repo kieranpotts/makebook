@@ -2,39 +2,36 @@ version: 2
 jobs:
   build:
     docker:
-      - image: pandoc/latex
+    - image: pandoc/latex
 
     steps:
-      - checkout
+    - checkout
 
-      - run:
-          name: Setup dependencies
-          command:
-            apk add make texlive-xetex ttf-dejavu
+    - run:
+        name: Setup dependencies
+        command:
+          apk add make texlive-xetex ttf-dejavu
 
-      - run:
-          name: Build all formats
-          command:
-            cd test/book/src &&
-            make all
+    - run:
+        name: Build all formats
+        command:
+          cd test/book/src &&
+          make all
 
-      - run:
-          name: Check if EPUB exists
-          command:
-            cd test/book &&
-            test -s dist/epub/book.epub
+    - run:
+        name: Check if EPUB exists
+        command:
+          cd test/book &&
+          test -s dist/epub/book.epub
 
-      - run:
-          name: Check if HTML exists
-          command:
-            cd test/book &&
-            test -s dist/html/book.html &&
-            test -s dist/html/styles/book.css &&
-            test -s dist/html/images/cover.png &&
-            test -s dist/html/images/seagull.png
+    - run:
+        name: Check if HTML exists
+        command:
+          cd test/book &&
+          test -s dist/html/book.html
 
-      - run:
-          name: Check if PDF exists
-          command:
-            cd test/book &&
-            test -s build/pdf/book.pdf
+    - run:
+        name: Check if PDF exists
+        command:
+          cd test/book &&
+          test -s build/pdf/book.pdf
