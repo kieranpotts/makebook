@@ -1,6 +1,30 @@
 # Exporting
 
-To generate PDF, EPUB and HTML bundles of you book, run the following commands from the context of the `src` directory (where the `Makefile` is located):
+To generate PDF, EPUB and HTML bundles of you book, first power-up the virtual machine. From the root directory of your project (the location of the `Vagrantfile`):
+
+```sh
+$ vagrant up
+```
+
+When the guest machine is running, log into it:
+
+```sh
+$ vagrant ssh
+```
+
+You will arrive at the location `/home/vagrant/synced`. This directory is synchronised with the root directory of your project on your guest machine. See for yourself by listing the directory contents:
+
+```sh
+% ls -la
+```
+
+Change to the `src` directory:
+
+```sh
+$ cd src
+```
+
+Run the following commands from the context of the `src` directory (where the `Makefile` is located):
 
 ```sh
 $ make pdf
