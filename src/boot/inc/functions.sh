@@ -1,18 +1,36 @@
 #!/bin/bash
 
 # ------------------------------------------------------------------------------
-# Functions that are used throughout the provisioning scripts.
+# Helper functions, used throughout the provisioning script.
 # ------------------------------------------------------------------------------
 
+# Global task counter.
+i=0
+
 # ------------------------------------------------------------------------------
-# Print a new message to inform the user
-# a new provisioning task is starting.
+# Print a message to inform the user a new provisioning task is about to getting
+# started.
 #
-# @global i Task incrementer.
-# @param  1 Mesasage to print.
+# @global i - Task incrementer.
+# @param  1 - Mesasage to print.
+#
 # @return void
 #
 function startNewTask {
-  ((i++)) # Increment the global task counter.
-  echo "--> ${i}. $1..."
+
+  # Increment the global task counter.
+  ((i++))
+
+  # Print message.
+  read -r -d '' msg << EOF
++------------------------------------------------------------------------------+
+  STEP ${i}
+  $1...
++------------------------------------------------------------------------------+
+EOF
+  echo "${msg}"
+
+  # Give the user a moment to read the message.
+  sleep 2s
+
 }

@@ -18,9 +18,6 @@ synced_dir=$1
 # by this provisioning script.
 boot_dir="${synced_dir}/boot"
 
-# Task counter.
-i=0
-
 # Load helper functions.
 source "${boot_dir}/inc/functions.sh"
 
