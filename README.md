@@ -27,7 +27,7 @@ This VM is distributed via [Vagrant Cloud](https://app.vagrantup.com/kieranpotts
 - [Images](docs/en/use/images.md)
 - [Tables](docs/en/use/tables.md)
 - [Styling](docs/en/use/styles.md)
-- [Exporting](docs/en/use/exporting.md)
+- [Export](docs/en/use/export.md)
 - [Makefile](docs/en/use/makefile.md)
 - [License](docs/en/use/license.md)
 

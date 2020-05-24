@@ -1,4 +1,4 @@
-# Exporting
+# Export
 
 To generate PDF, EPUB and HTML bundles of you book, first power-up the virtual machine. From the root directory of your project (the location of the `Vagrantfile`):
 

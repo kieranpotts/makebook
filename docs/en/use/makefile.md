@@ -13,7 +13,7 @@ You just type this:
 $ make pdf
 ```
 
-For the ultimate customisation of your books, you will need to edit `Makefile`, which encapsulates the build configuration.
+For the ultimate customisation of your books, you will need to edit the `Makefile` in the `src` directory. This file which encapsulates the build configuration.
 
 The following references provide all the documentation you need.
 
