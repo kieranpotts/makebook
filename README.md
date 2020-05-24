@@ -7,9 +7,11 @@
 
 **A pre-configured virtual machine and starter kit for generating books with [Pandoc](https://pandoc.org/).**
 
-This is a Vagrant-provisioned VirtualBox-compatible virtual machine that is pre-installed with software tools and a build configuration to make it easy to generate books in a variety of file formats — EPUB, HTML and PDF — from a directory of Markdown files and images.
+This is a Vagrant-provisioned virtual machine that is pre-installed with software tools and a build configuration to generate books in a variety of file formats — EPUB, HTML and PDF — from a directory of Markdown files and images.
 
 The main components of the build pipeline are [Pandoc](https://pandoc.org/) and [Make](https://www.gnu.org/software/make/).
+
+This VM is distributed via [Vagrant Cloud](https://app.vagrantup.com/kieranpotts/boxes/makebook).
 
 
 ## Documentation
