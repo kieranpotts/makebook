@@ -1,6 +1,6 @@
 # Acknowledgements
 
-This box is inspired by [Daniel Herzog](https://danielherzog.es/)'s excellent [pandoc-book-template](https://github.com/wikiti/pandoc-book-template). I've basically put that in a VM for easier install on different host systems, and for better portability.
+This box is inspired by [Daniel Herzog](https://danielherzog.es/)'s excellent [pandoc-book-template](https://github.com/wikiti/pandoc-book-template). I've basically put that in a VM for easier portability between host systems.
 
 | Avatar | Name | Email |
 | ------ | ---- | ----- |

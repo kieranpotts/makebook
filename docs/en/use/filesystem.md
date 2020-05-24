@@ -1,4 +1,4 @@
-# Filesystem Structure
+# Filesystem structure
 
 Please use the following filesystem structure for your book:
 

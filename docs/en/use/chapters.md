@@ -12,7 +12,7 @@ chapters/04-references.md
 Each chapter should begin with a level one heading:
 
 ```md
-# Chapter Name
+# Chapter name
 
 First paragraph of the chapter.
 ```

@@ -1,4 +1,4 @@
-# Change Management Workflow
+# Change management workflow
 
 Change management is the process of managing a software change request through its life cycle, from reporting through development and integraion to release. Typically, the process is supported by tools and infrastructure — such as version control systems, issue trackers and continuous integration servers — and policies such as branch naming conventions and code review procedures.
 

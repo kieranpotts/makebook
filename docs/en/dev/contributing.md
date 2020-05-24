@@ -1,4 +1,4 @@
-# How to Contribute
+# How to contribute
 
 This is a free and open source software project. It is made possible by generous contributions from software engineers, both expert and novice, from around the world.
 
@@ -16,13 +16,13 @@ The ultimate way to contribute to this project — indeed, to _any_ open source 
 
 By participating in this project you accept the [Contributor License Agreement](cla.md) and you agree to respect the [Code of Conduct](code-of-conduct.md).
 
-#### Ask Questions
+#### Questions
 
 Everyone is welcome to ask questions and initiate discussions about the project via the issue tracker.
 
 If you require technical support, please first search for an answer in the issue tracker and on popular external Q&A sites such as [StackOverflow](https://stackoverflow.com/). If you can't find a solution, please go ahead and ask your question by opening a new issue.
 
-#### Bug Reports
+#### Bug reports
 
 Before reporting a bug, please first search the issue tracker to see if the error has been reported previously. If not, checkout the `dev` branch and try to reproduce the error there. The `dev` branch represents the most recent increment of the software, including unreleased increments. If the error cannot be reproduced in the `dev` branch, most likely it has already been resolved.
 
@@ -37,7 +37,7 @@ Describe the outcome that you expected, and what's different about the actual ou
 
 Make a note if you are able to contribute a patch for the bug yourself.
 
-#### Feature Requests
+#### Feature requests
 
 Ideas for new features and other enhancements to the project may also be submitted via the issue tracker.
 

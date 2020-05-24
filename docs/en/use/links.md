@@ -19,11 +19,11 @@ The reference is to the section title, not the chapter's Markdown file. Thus, th
 ```md
 # Introduction
 
-## First Section
+## First section
 
 For more information, check the [Second Section].
 
-## Second Section
+## Second section
 
 ...
 ```

@@ -1,8 +1,8 @@
 # Building
 
-Follow these instruction to build a new version of the distributable Vagrant box.
+Follow these instruction to build a new version of the distributable `makebook` Vagrant box.
 
-1.  Change the `src` directory.
+1.  Change to the `src` directory.
 
     ```sh
     $ cd src
@@ -20,19 +20,19 @@ Follow these instruction to build a new version of the distributable Vagrant box
     $ rm -R .vagrant
     ```
 
-2.  Run the following command to update the base base (`bento/ubuntu-18.04`) from which our box extends.
+2.  Update the base base (`bento/ubuntu-18.04`) from which this box extends.
 
     ```sh
     $ vagrant box update
     ```
 
-3.  Rebuild the box from scratch.
+3.  Rebuild this box from scratch.
 
     ```sh
     $ vagrant up --provision
     ```
 
-    Note: it will typically take several minutes to download the Pandoc binary.
+    (Note: it may take several minutes to download the Pandoc binary.)
 
 4.  When the provisioning script is complete, SSH into the box and checking it is configured as expected.
 

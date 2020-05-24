@@ -1,4 +1,4 @@
-# Get Started
+# Get started
 
 Follow these instructions to start a new book project.
 
