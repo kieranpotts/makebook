@@ -101,10 +101,10 @@ The following resources may be helpful for you in customising the design of your
 - [Overleaf](https://www.overleaf.com/) \
   A freemium online LaTeX editor and test environment. Formerly branded [ShareLaTeX](https://www.sharelatex.com/).
 
-- [TeXworks](http://www.tug.org/texworks/) \
+- [Texmaker](https://www.xm1math.net/texmaker/) \
   Cross-platform: Windows, macOS and Linux.
 
-- [Texmaker](https://www.xm1math.net/texmaker/) \
+- [TeXworks](http://www.tug.org/texworks/) \
   Cross-platform: Windows, macOS and Linux.
 
 - [LEd](http://www.latexeditor.org/) \
