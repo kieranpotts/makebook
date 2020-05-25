@@ -98,6 +98,9 @@ The following resources may be helpful for you in customising the design of your
 
 #### TEX file editors 
 
+- [Overleaf](https://www.overleaf.com/) \
+  A freemium online LaTeX editor and test environment. Formerly branded [ShareLaTeX](https://www.sharelatex.com/).
+
 - [TeXworks](http://www.tug.org/texworks/) \
   Cross-platform: Windows, macOS and Linux.
 
@@ -122,9 +125,6 @@ The following resources may be helpful for you in customising the design of your
 
 - [The LaTeX font catalogue](https://tug.org/FontCatalogue/) \
   Search and display all free fonts available to use with LaTeX.
-
-- [Overleaf](https://www.overleaf.com/) \
-  A freemium online LaTeX editor and test environment. Formerly branded [ShareLaTeX](https://www.sharelatex.com/).
 
 - [Pandoc plugin for Vim](https://github.com/vim-pandoc/vim-pandoc) \
   Adds support for [Pandoc's Markdown variant](https://pandoc.org/MANUAL.html#pandocs-markdown) to the Vim editor.
