@@ -1,45 +1,49 @@
 # Export
 
-To generate PDF, EPUB and HTML bundles of you book, first power-up the virtual machine. From the root directory of your project (the location of the `Vagrantfile`):
+Follow these steps to generate EPUB, PDF and HTML bundles of you book:
 
-```sh
-$ vagrant up
-```
+1.  Power-up the virtual machine.
 
-When the guest machine is running, log into it:
+    From the root directory of your project (the location of the `Vagrantfile`):
 
-```sh
-$ vagrant ssh
-```
+    ```cli
+    $ vagrant up
+    ```
 
-You will arrive at the location `/home/vagrant/synced`. This directory is synchronised with the root directory of your project on your guest machine. See for yourself by listing the directory contents:
+2.  When the guest machine is running, log into it:
 
-```sh
-% ls -la
-```
+    ```cli
+    $ vagrant ssh
+    ```
 
-Change to the `src` directory:
+3.  You will arrive at the location `/home/vagrant/synced`. This directory is synchronised with the root directory of your project on your guest machine. See for yourself by listing the directory contents:
 
-```sh
-$ cd src
-```
+    ```cli
+    $ ls -la
+    ```
 
-Run the following commands from the context of the `src` directory (where the `Makefile` is located):
+    Change to the `src` directory:
 
-```sh
-$ make pdf
-$ make epub
-$ make html
-```
+    ```cli
+    $ cd src
+    ```
 
-To generate all of these in one go:
+4.  Run the following commands from the context of the `src` directory (where the `Makefile` is located):
 
-```sh
-$ make all
-```
+    ```cli
+    $ make epub
+    $ make pdf
+    $ make html
+    ```
 
-The distributable files are created in the `dist` directory. But the books will not be regenerated if the distributable files already exist. To start a fresh build, begin by cleaning out the contents of the `dist` directory with the following command:
+    To generate all of these in one go:
 
-```sh
-$ make clean
-```
+    ```cli
+    $ make all
+    ```
+
+    The distributable files are created in the `dist` directory. But the books will not be regenerated if the distributable files already exist. To start a fresh build, begin by cleaning out the contents of the `dist` directory with the following command:
+
+    ```cli
+    $ make clean
+    ```

@@ -1,12 +1,12 @@
-# Testing
+# Test
 
-Having [built](built.md) a new version of the Vagrant box, you should throughly test it before [deploying](deploy.md) the new release.
+Having [built](build.md) a new version of the Vagrant box, you should throughly test it before [deploying](deploy.md) the new release.
 
 1.  Add the newly-generated `.box` file to your current VM provider (VirtualBox). Append `-test` to the name of the box to distinguish it from the production version. Use the `--force` flag to update any earlier versions of the test box you may have installed previously.
 
     Change to this project's root directory, then:
 
-    ```sh
+    ```cli
     $ vagrant box add --force kieranpotts/makebook-test dist/makebook.box
     ```
 
@@ -18,7 +18,7 @@ Having [built](built.md) a new version of the Vagrant box, you should throughly 
 
 2.  Change to the `test` directory.
 
-    ```sh
+    ```cli
     $ cd test
     ```
 
@@ -31,19 +31,19 @@ Having [built](built.md) a new version of the Vagrant box, you should throughly 
 
     Destroy previous builds of the test box.
 
-    ```sh
+    ```cli
     $ vagrant destroy
     ```
 
     To be sure, delete the `test/.vagrant` directory, too.
 
-    ```sh
+    ```cli
     $ rm -R .vagrant
     ```
 
 3.  Reprovision the test box from scatch by running the following command from the `test` directory.
 
-    ```sh
+    ```cli
     $ vagrant up --provision
     ```
 
@@ -55,25 +55,25 @@ Having [built](built.md) a new version of the Vagrant box, you should throughly 
 
     Your default location inside the VM will be `/home/vagrant/synced`. This directory is synced with the `test` directory on the host machine. See for yourself:
 
-    ```sh
+    ```cli
     $ ls -la
     ```
 
     Change to the `book` directory.
 
-    ```sh
+    ```cli
     $ cd book
     ```
 
     This directory contains source files and a minimal configuration from which to generate a book. 
 
-    ```sh
+    ```cli
     $ ls -la
     ```
 
-   Run the following commands to generate books in various file formats from the source files.
+    Run the following commands to generate books in various file formats from the source files.
 
-    ```sh
+    ```cli
     $ make pdf
     $ make epub
     $ make html
@@ -81,19 +81,19 @@ Having [built](built.md) a new version of the Vagrant box, you should throughly 
 
     Or, to make all of them in one go:
 
-    ```sh
+    ```cli
     $ make all
     ```
 
     Books are built to the `dist` directory, in the same parent directory as `src`. Before rebuilding any books, you will need to empty this directory again:
 
-    ```sh
+    ```cli
     $ make clean
     ```
 
-5.  Exit and VM and power it down:
+5.  Exit the VM and power it down:
 
-    ```sh
+    ```cli
     $ exit
     $ vagrant halt
     ```

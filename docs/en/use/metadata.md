@@ -1,6 +1,8 @@
 # Metadata
 
-The `metadata.yml` file provides metadata for your book. The YAML block must start and end with `---`.
+The file `eg/src/metadata.yml` provides metadata for your book in the YAML data interchange format. This metadata is passed to the `pandoc` utility, which is responsible for generating books from your source content.
+
+The YAML configuration block must start and end with `---`.
 
 ```yml
 ---

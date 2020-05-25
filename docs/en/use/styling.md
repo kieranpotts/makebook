@@ -1,8 +1,8 @@
 # Styling
 
-A file called `styles/book.css` can be used to apply custom styles to you generated books.
+You can use a CSS file to apply custom styles to the EPUB and HTML versions of your book.
 
-The file `init/src/styles/books.css` provides a starter template. This file contains no custom styling, but empty selectors that target most Pandoc elements are included for your reference.
+The file `eg/src/styles/books.css` provides a starter template. This file contains no custom styling, but empty selectors that target most Pandoc elements are included for your reference.
 
 Refer to the following projects for more examples of how to style Pandoc-generated books:
 

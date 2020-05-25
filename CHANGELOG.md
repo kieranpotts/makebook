@@ -1,5 +1,9 @@
 # Change Log
 
+#### Unreleased
+- Change `init` directory to `eg`.
+- Improve documentation.
+
 #### v1.0.0 - 2020-02-09
 - Initial release.
 

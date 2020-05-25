@@ -1,14 +1,14 @@
 # Images
 
-Use the standard Markdown syntax to create images with captions:
+You can use standard Markdown syntax to create images with captions:
 
 ```md
 ![Textual description.](images/filename.png)
 ```
 
-The path to the file must be relative to the location of the `Makefile`. This is because Pandoc will automatically include images when generating EPUB and PDF documents, and it will follow the image links from the directory where the `pandoc` command is executed.
+The path to the file must be relative to the location of the `Makefile`. This is because Pandoc will automatically include images when generating EPUB and PDF documents, and when it does so it will follow the image links from the directory where the `pandoc` command is executed.
 
-Pandoc supports an extended Markdown syntax to resize images:
+Pandoc supports an extended Markdown syntax to support resizing of images:
 
 ```md
 ![Textual description.](images/filename.png){ width=50% height=50% }

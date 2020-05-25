@@ -7,7 +7,7 @@
 
 **A pre-configured virtual machine and starter kit for generating books with [Pandoc](https://pandoc.org/).**
 
-This is a Vagrant-provisioned virtual machine that is pre-installed with software tools and a build configuration to generate books in a variety of file formats — EPUB, HTML and PDF — from a directory of Markdown files and images.
+This is a Vagrant-provisioned virtual machine that is pre-installed with software tools and a build configuration to generate books in a variety of file formats — EPUB, PDF and HTML — from a directory of Markdown files and images.
 
 The main components of the build pipeline are [Pandoc](https://pandoc.org/) and [Make](https://www.gnu.org/software/make/).
 
@@ -26,7 +26,7 @@ This VM is distributed via [Vagrant Cloud](https://app.vagrantup.com/kieranpotts
 - [Links](docs/en/use/links.md)
 - [Images](docs/en/use/images.md)
 - [Tables](docs/en/use/tables.md)
-- [Styling](docs/en/use/styles.md)
+- [Styling](docs/en/use/stylingmd)
 - [Export](docs/en/use/export.md)
 - [Makefile](docs/en/use/makefile.md)
 - [License](docs/en/use/license.md)
@@ -34,9 +34,9 @@ This VM is distributed via [Vagrant Cloud](https://app.vagrantup.com/kieranpotts
 #### Contributing 
 
 - [How to contribute](docs/en/dev/contributing.md)
-- [Building](docs/en/dev/build.md)
-- [Testing](docs/en/dev/test.md)
-- [Deployment](docs/en/dev/deploy.md)
+- [Build](docs/en/dev/build.md)
+- [Test](docs/en/dev/test.md)
+- [Deploy](docs/en/dev/deploy.md)
 - [Versioning](docs/en/dev/versioning.md)
 - [Change management workflow](docs/en/dev/workflow.md)
 - [Contributor license agreement](docs/en/dev/cla.md)

@@ -1,42 +1,42 @@
-# Building
+# Build
 
 Follow these instruction to build a new version of the distributable `makebook` Vagrant box.
 
 1.  Change to the `src` directory.
 
-    ```sh
+    ```cli
     $ cd src
     ```
 
     Destroy any previous builds of the box that may still exist on your local filesystem.
 
-    ```sh
+    ```cli
     $ vagrant destroy --force
     ```
 
     To be sure, delete the `.vagrant` directory, too.
 
-    ```sh
+    ```cli
     $ rm -R .vagrant
     ```
 
 2.  Update the base base (`bento/ubuntu-18.04`) from which this box extends.
 
-    ```sh
+    ```cli
     $ vagrant box update
     ```
 
 3.  Rebuild this box from scratch.
 
-    ```sh
+    ```cli
     $ vagrant up --provision
     ```
 
     (Note: it may take several minutes to download the Pandoc binary.)
 
-4.  When the provisioning script is complete, SSH into the box and checking it is configured as expected.
+4.  When the provisioning script is complete, SSH into the box and check it is configured as expected.
 
-    ```sh
+    ```cli
     $ vagrant ssh
     ```
 
@@ -44,13 +44,13 @@ Follow these instruction to build a new version of the distributable `makebook` 
 
 5.  If everything is OK, exit the VM.
 
-    ```sh
+    ```cli
     $ exit
     ```
 
     Delete all the contents of the `dist` directory, if it exists. Then, from the `src` directory, issue the following command to repackage the VM as a shareable box file.
 
-    ```sh
+    ```cli
     $ vagrant package --output ../dist/makebook.box
     ```
 

@@ -2,22 +2,20 @@
 
 Rather than calling the `pandoc` CLI utility directly, the `pandoc` commands have been abstracted away behind simple `make` commands. So, instead of typing the following commands to generate PDFs:
 
-```sh
+```cli
 $ mkdir -p ../dist/pdf
-$ pandoc --toc --toc-depth=2 --css=styles/book.css --metadata-file=metadata.yml -V geometry:margin=1in -V documentclass=report --pdf-engine=xelatex -o ../dist/pdf/book.pdf chapters/*.md
+$ pandoc --toc --toc-depth=2 --css=styles/book.css --metadata-file=metadata.yml \
+    -V geometry:margin=1in -V documentclass=report --pdf-engine=xelatex \
+    -o ../dist/pdf/book.pdf chapters/*.md
 ```
 
 You just type this:
 
-```sh
+```cli
 $ make pdf
 ```
 
-For the ultimate customisation of your books, you will need to edit the `Makefile` in the `src` directory. This file which encapsulates the build configuration.
+For the ultimate customisation of your books, you will need to edit the `Makefile` in the `src` directory. To make changes to the build configuration, refer to the documentation for Makefiles and Pandoc:
 
-The following references provide all the documentation you need.
-
-- [Pandoc Manual](http://pandoc.org/MANUAL.html)
-- [learnbyexample: Customizing Pandoc to Generate Beautiful PDFs from Markdown](https://learnbyexample.github.io/tutorial/ebook-generation/customizing-pandoc/)
-- [Sitepoint: Creating PDFs from Markdown with Pandoc and LaTeX](https://www.sitepoint.com/creating-pdfs-from-markdown-with-pandoc-and-latex/)
 - [An Introduction to Makefiles](https://www.gnu.org/software/make/manual/html_node/Introduction.html)
+- [Pandoc Manual](http://pandoc.org/MANUAL.html)
