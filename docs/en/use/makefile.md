@@ -15,7 +15,4 @@ You just type this:
 $ make pdf
 ```
 
-For the ultimate customisation of your books, you will need to edit the `Makefile` in the `src` directory. To make changes to the build configuration, refer to the documentation for Makefiles and Pandoc:
-
-- [An Introduction to Makefiles](https://www.gnu.org/software/make/manual/html_node/Introduction.html)
-- [Pandoc Manual](http://pandoc.org/MANUAL.html)
+For the ultimate customisation of your books, you will need to edit the `Makefile` in the `src` directory. Refer to the [reference resources](reference.md) for help.
