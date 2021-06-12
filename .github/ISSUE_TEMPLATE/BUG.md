@@ -43,7 +43,7 @@ I am running the software in the following host environments. Check all relevant
     - OS: e.g. Android, iOS, Windows 10
     - Browser: e.g. Stock browser, Chrome, Safari
     - Version: e.g. v22
-- [ ] Node.js
+- [ ] Node
     - Version: e.g. v10.15
     - OS: e.g. macOS Mojave, Windows 10
     - Package manager: e.g. NPM, Yarn
