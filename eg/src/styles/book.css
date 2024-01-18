@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+/**
+ * @file      Custom styles.
+ * @see       {@link https://pandoc.org/MANUAL.html#option--css|Pandoc Manual}
+ * @copyright 2020 Kieran Potts
+ * @license   MIT
+ *
+ * This is a template for a custom Pandoc style sheet. Most of Pandoc's elements
+ * are listed here, but the selectors are empty - ready to be extended with your
+ * custom style properties.
+ */
+
+/**
+ * Header.
+ */
+
+div#header,
+header {
+  /* ... */
+}
+
+.title {
+  /* ... */
+}
+
+.author,
+.date {
+  /* ... */
+}
+
+/**
+ * TOC.
+ */
+
+div#TOC,
+nav#TOC {
+  /* ... */
+}
+
+@media print {
+  div#TOC,
+  nav#TOC {
+    /* ... */
+  }
+}
+
+/**
+ * Headers.
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* ... */
+}
+
+/**
+ * Body content.
+ */
+
+p {
+  /* ... */
+}
+
+ul {
+  /* ... */
+}
+
+ol {
+  /* ... */
+}
+
+li {
+  /* ... */
+}
+
+blockquote {
+  /* ... */
+}
+
+hr {
+  /* ... */
+}
+
+sub {
+  /* ... */
+}
+
+sup {
+  /* ... */
+}
+
+em {
+  /* ... */
+}
+
+strong {
+  /* ... */
+}
+
+/**
+ * Links.
+ */
+
+a {
+  /* ... */
+}
+
+@media screen {
+  a:hover {
+    /* ... */
+  }
+}
+
+@media print {
+  a  {
+    /* ... */
+  }
+}
+
+/**
+ * Images and figures.
+ */
+
+img {
+  /* ... */
+}
+
+div.figure {
+  /* ... */
+}
+
+p.caption {
+  /* ... */
+}
+
+/**
+ * Code blocks and spans.
+ */
+
+pre {
+  /* ... */
+}
+
+@media screen {
+  pre {
+    /* ... */
+  }
+}
+
+code {
+  /* ... */
+}
+
+/**
+ * Tables.
+ */
+
+table {
+  /* ... */
+}
+
+thead {
+  /* ... */
+}
+
+tr  {
+  /* ... */
+}
+
+tr.header {
+  /* ... */
+}
+
+tbody {
+  /* ... */
+}
+
+tr.odd {
+  /* ... */
+}
+
+tr.even {
+  /* ... */
+}
+
+td,
+th {
+  /* ... */
+}
+
+th {
+  /* ... */
+}
+
+tfoot {
+  /* ... */
+}
+
+caption {
+  /* ... */
+}
+
+/**
+ * Definition lists.
+ */
+
+dl {
+  /* ... */
+}
+
+dt {
+  /* ... */
+}
+
+dd {
+  /* ... */
+}
+
+/**
+ * Footnotes.
+ */
+
+a.footnote,
+a.footnoteRef {
+  /* ... */
+}
+
+a[href^="#fnref"],
+a.reversefootnote {
+  /* ... */
+}
+
+@media print {
+  a[href^="#fnref"],
+  a.reversefootnote {
+    /* ... */
+  }
+}
+
+div.footnotes {
+  /* ... */
+}
+
+div.footnotes li[id^="fn"] {
+  /* ... */
+}

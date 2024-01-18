@@ -1,0 +1,46 @@
+version: 2
+
+jobs:
+  build:
+
+    branches:
+      only:
+        - latest/dev
+
+    docker:
+      - image: pandoc/latex
+
+    steps:
+      - checkout
+
+      - run:
+          name: Setup dependencies
+          command:
+            apk add make texlive-xetex ttf-dejavu
+
+      - run:
+          name: Build all book formats
+          command: |
+            cd test/book/src
+            make all
+
+      - run:
+          name: Check EPUB distributable is built
+          command: |
+            cd test/book
+            test -s dist/epub/book.epub
+
+      - run:
+          name: Check HTML distributable is built
+          command: |
+            cd test/book
+            test -s dist/html/book.html
+            test -s dist/html/styles/book.css
+            test -s dist/html/images/cover.png
+            test -s dist/html/images/seagull.png
+
+      - run:
+          name: Check PDF distributable is built
+          command: |
+            cd test/book
+            test -s dist/pdf/book.pdf
